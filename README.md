@@ -7,3 +7,9 @@ MiniWeather is a small Arduino project for a ESP8266 with a small OLED + DHL11 s
 Available from places like Banggood. Look for "Geekcreit ESP8266 IoT Development".
 
 Was coded for fun and the challenge to use [PlatformIO](https://platformio.org).
+
+Install PlatformIO. There is a `Makefile` with which one can do
+
+- `make build` build binary
+- `make install` (_build and_) upload to a device if connected
+- `make clean` clean directory
