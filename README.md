@@ -13,3 +13,5 @@ Install PlatformIO. There is a `Makefile` with which one can do
 - `make build` build binary
 - `make install` (_build and_) upload to a device if connected
 - `make clean` clean directory
+
+Replace the network SSID and Password. Comment the `#error` line before building first time.
