@@ -1,9 +1,9 @@
 .SILENT:
 
 all:
-	echo "make clean"
 	echo "make build"
 	echo "make install"
+	echo "make clean"
 
 clean:
 	pio run --target clean
